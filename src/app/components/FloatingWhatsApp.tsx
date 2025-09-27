@@ -1,4 +1,4 @@
-// components/FloatingWhatsApp.tsx
+
 export default function FloatingWhatsApp() {
   return (
     <div className="floating-whatsapp">

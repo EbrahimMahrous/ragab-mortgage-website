@@ -1,14 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  trailingSlash: true,
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath:
-    process.env.NODE_ENV === "production" ? "/ragab-mortgage-website" : "",
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/ragab-mortgage-website/" : "",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
