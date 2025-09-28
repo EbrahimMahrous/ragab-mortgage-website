@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
-              src="/ragab.jpg"
+              src="/ragab-mohammed.jpg"
               alt="Ragab Mohammed"
               width={400}
               height={400}
